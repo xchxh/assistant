@@ -56,7 +56,7 @@ for chunk in response:
 |------|-----------|------|
 | GPT-5.4 Nano | `gpt-5.4-nano` | 可用 |
 | GPT-5.4 Mini | `gpt-5.4-mini` | 可用 |
-| Gemini 3 Flash Lite Preview | `gemini-3.1-flash-lite-preview` | 可用 |
+| Gemini 3.1 Flash Lite Preview | `gemini-3.1-flash-lite-preview` | 可用 |
 | Grok 4.1 Fast | `grok-4.1-fast` | 可用 |
 | Grok 3 Mini | `grok-3-mini` | 可用 |
 | Llama 4 Scout 17B 16E Instruct | `llama-4-scout-17b-16e-instruct` | 可用 |
