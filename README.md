@@ -16,7 +16,7 @@
 
 ```bash
 # 克隆
-git clone https://github.com/XXXxx7258/assistant-2api.git
+git clone https://github.com/xchxh/assistant-2api.git
 cd assistant-2api
 
 # 配置
