@@ -83,7 +83,7 @@ response = client.chat.completions.create(
 ```python
 response = client.chat.completions.create(
     model="gpt-5.4-nano",
-    messages=[{"role": "user", "content": "London 天气如何？"}],
+    messages=[{"role": "user", "content": "US天气？"}],
     tools=[{
         "type": "function",
         "function": {
