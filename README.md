@@ -56,14 +56,12 @@ for chunk in response:
 |------|-----------|------|
 | GPT-5.4 Nano | `gpt-5.4-nano` | 可用 |
 | GPT-5.4 Mini | `gpt-5.4-mini` | 可用 |
-| Claude Haiku 4.5 | `claude-haiku-4.5` | 暂停 |
-| Gemini 3 Flash | `gemini-3-flash` | 暂停 |
-| Grok 4.1 Fast | `grok-4.1-fast` | 暂停 |
-| Grok 3 Mini Fast | `grok-3-mini-fast` | 暂停 |
-| Llama 3.3 70B | `llama-3.3-70b` | 暂停 |
-| Qwen3 32B | `qwen3-32b` | 暂停 |
+| Gemini 3 Flash Lite Preview | `gemini-3.1-flash-lite-preview` | 可用 |
+| Grok 4.1 Fast | `grok-4.1-fast` | 可用 |
+| Grok 3 Mini | `grok-3-mini` | 可用 |
+| Llama 4 Scout 17B 16E Instruct | `llama-4-scout-17b-16e-instruct` | 可用 |
+| Qwen3 32B | `qwen3-32b` | 可用 |
 
-> 暂停模型由上游 assistant-ui 禁用，请求时会自动回退到 `gpt-5.4-nano`。
 
 ### 图片识别
 
@@ -73,7 +71,7 @@ response = client.chat.completions.create(
     messages=[{
         "role": "user",
         "content": [
-            {"type": "text", "text": "这张图片是什么？"},
+            {"type": "text", "text": "你好"},
             {"type": "image_url", "image_url": {"url": "data:image/png;base64,..."}}
         ]
     }]
